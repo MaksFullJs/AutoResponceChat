@@ -28,17 +28,17 @@ export const createMessage = async (chatId, sender, text) => {
 };
 
 export const getMessages = async (chatId) => {
-    return await axios.get(`http://localhost:5020/api/chat/${chatId}/messages`);
+    return await axios.get(`https://autoresponcechat.onrender.com/api/chat/${chatId}/messages`);
 };
 
 export const getMessage = async (id) => {
-    return await axios.get(`http://localhost:5020/api/chat/message/${id}`);
+    return await axios.get(`https://autoresponcechat.onrender.com/api/chat/message/${id}`);
 };
 
 export const editMessage = async (id, updatedMessage) => {
     console.log(updatedMessage);
     return await axios.put(
-        `http://localhost:5020/api/chat/message/${id}`,
+        `https://autoresponcechat.onrender.com/api/chat/message/${id}`,
         updatedMessage
     );
 };
