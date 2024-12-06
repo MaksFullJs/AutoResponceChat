@@ -14,7 +14,7 @@ export const ChatContextProvider = ({ children }) => {
 
 
     useEffect(() => {
-        const newSocket = io("http://localhost:5020");
+        const newSocket = io("https://autoresponcechat.onrender.com");
         setSocket(newSocket);
 
         return () => {
