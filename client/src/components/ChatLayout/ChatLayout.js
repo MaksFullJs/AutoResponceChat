@@ -20,8 +20,6 @@ function ChatLayout({ chat }) {
         messageId: null,
     });
 
-    console.log(chat)
-
     const openEditMessageModal = () => setEditMessageModalOpen(true);
     const closeMessageEditModal = () => setEditMessageModalOpen(false);
 

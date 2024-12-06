@@ -23,8 +23,6 @@ function ChatCard({ id, firstname, lastname }) {
         lastName: "",
     });
 
-    console.log(messagesFromSelectedChat);
-
     const openEditModal = () => setEditModalOpen(true);
     const closeEditModal = () => setEditModalOpen(false);
     const openDeleteModal = () => setDeleteModalOpen(true);
