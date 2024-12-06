@@ -1,0 +1,10 @@
+
+
+.chat__container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.chat__flex-container {
+    display: flex;
+}

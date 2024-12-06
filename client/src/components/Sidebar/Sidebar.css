@@ -1,0 +1,27 @@
+.chat__sidebar {
+    /* height: 100vh; */
+    flex-basis: 30%;
+}
+
+.profile {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.profile__avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.profile__login {
+    color: aqua;
+    background-color: white;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
