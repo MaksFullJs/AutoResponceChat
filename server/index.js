@@ -30,7 +30,7 @@ mongoose
 
 const server = createServer(app);
 
-const io = new Server(server, { cors: "http://localhost:3000" });
+const io = new Server(server, { cors: "https://auto-responce-chat.vercel.app/" });
 
 const PORT = process.env.PORT || 5020;
 server.listen(PORT, () => {
